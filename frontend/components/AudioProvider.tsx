@@ -28,7 +28,7 @@ interface AudioProviderProps {
 export function AudioProvider({ children }: AudioProviderProps) {
   const [isMuted, setIsMuted] = useState(!AUDIO_CONFIG.defaultUnmuted);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [volume, setVolumeState] = useState(AUDIO_CONFIG.defaultVolume);
+  const [volume, setVolumeState] = useState<number>(AUDIO_CONFIG.defaultVolume);
   const [hasInteracted, setHasInteracted] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const playAttemptRef = useRef<NodeJS.Timeout | null>(null);
