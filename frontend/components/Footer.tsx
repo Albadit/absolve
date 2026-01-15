@@ -32,7 +32,7 @@ export default function Footer() {
             </motion.div>
             <p className="text-bone/50 text-sm leading-relaxed max-w-sm">
               A dark fantasy action RPG where absolution is earned through blood
-              and sacrifice. Developed by Penut Studios.
+              and sacrifice. Developed by Peanut Studios.
             </p>
           </div>
 
