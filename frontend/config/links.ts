@@ -23,7 +23,7 @@ export const LINKS = {
     steam: "https://store.steampowered.com/app/4232480/ABSLVE/",
     instagram: "https://www.instagram.com/official_peanuts_studio/",
     tiktok: "https://www.tiktok.com/@officialpeanutsstudio",
-    itchio: "#",
+    itchio: "https://officialpeanutsstudio.itch.io/abslve",
   },
   
   // External links
