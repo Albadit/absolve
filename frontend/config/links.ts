@@ -10,7 +10,7 @@ export const LINKS = {
   // CTA links
   cta: {
     preOrder: "https://store.steampowered.com/app/4232480/ABSLVE/",
-    beginJourney: "#",
+    beginJourney: "https://store.steampowered.com/app/4232480/ABSLVE/",
     watchTrailer: "#",
   },
   
@@ -18,8 +18,12 @@ export const LINKS = {
   social: {
     twitter: "#",
     discord: "#",
-    youtube: "#",
-    steam: "#",
+    twitch: "#",
+    youtube: "https://www.youtube.com/@PeanutsStudios",
+    steam: "https://store.steampowered.com/app/4232480/ABSLVE/",
+    instagram: "https://www.instagram.com/official_peanuts_studio/",
+    tiktok: "https://www.tiktok.com/@officialpeanutsstudio",
+    itchio: "#",
   },
   
   // External links
@@ -29,14 +33,6 @@ export const LINKS = {
     careers: "#",
     privacyPolicy: "#",
     termsOfService: "#",
-  },
-  
-  // Social media links
-  socialMedia: {
-    twitter: "#",
-    youtube: "#",
-    instagram: "#",
-    twitch: "#",
   },
 } as const;
 
@@ -55,8 +51,10 @@ export const FOOTER_LINKS = [
 ] as const;
 
 export const SOCIAL_LINKS = [
-  { name: "Twitter", href: LINKS.socialMedia.twitter },
-  { name: "YouTube", href: LINKS.socialMedia.youtube },
-  { name: "Instagram", href: LINKS.socialMedia.instagram },
-  { name: "Twitch", href: LINKS.socialMedia.twitch },
+  { name: "Twitter", href: LINKS.social.twitter },
+  { name: "YouTube", href: LINKS.social.youtube },
+  { name: "Instagram", href: LINKS.social.instagram },
+  { name: "Twitch", href: LINKS.social.twitch },
+  { name: "TikTok", href: LINKS.social.tiktok },
+  { name: "Itch.io", href: LINKS.social.itchio },
 ] as const;
