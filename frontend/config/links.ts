@@ -11,7 +11,7 @@ export const LINKS = {
   cta: {
     preOrder: "https://store.steampowered.com/app/4232480/ABSLVE/",
     beginJourney: "https://store.steampowered.com/app/4232480/ABSLVE/",
-    watchTrailer: "#",
+    watchTrailer: "https://www.youtube.com/watch?v=SL3wzNo8LzU",
   },
   
   // Social media links (add your actual URLs here)
