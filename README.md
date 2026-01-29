@@ -64,7 +64,7 @@ absolve/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/absolve.git
+git clone https://github.com/albadit/absolve.git
 cd absolve
 ```
 
