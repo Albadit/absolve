@@ -1,16 +1,26 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Twitter, Youtube, Instagram, Twitch } from "lucide-react";
+import { Twitter, Youtube, Instagram, Twitch, Music2, Gamepad2, LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { FOOTER_LINKS, SOCIAL_LINKS } from "@/config/links";
 
-const socialLinks = [
-  { icon: Twitter, href: SOCIAL_LINKS[0].href, label: SOCIAL_LINKS[0].name },
-  { icon: Youtube, href: SOCIAL_LINKS[1].href, label: SOCIAL_LINKS[1].name },
-  { icon: Instagram, href: SOCIAL_LINKS[2].href, label: SOCIAL_LINKS[2].name },
-  { icon: Twitch, href: SOCIAL_LINKS[3].href, label: SOCIAL_LINKS[3].name },
-];
+const iconMap: Record<string, LucideIcon> = {
+  Twitter,
+  YouTube: Youtube,
+  Instagram,
+  Twitch,
+  TikTok: Music2,
+  "Itch.io": Gamepad2,
+};
+
+const socialLinks = SOCIAL_LINKS
+  .filter((link) => link.href !== "#")
+  .map((link) => ({
+    icon: iconMap[link.name],
+    href: link.href,
+    label: link.name,
+  }));
 
 export default function Footer() {
   return (
