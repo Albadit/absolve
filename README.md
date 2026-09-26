@@ -1,10 +1,10 @@
-# ABSLVE
+# ABSOLVE
 
 A dark fantasy game landing page built with Next.js, featuring atmospheric animations, immersive storytelling, and a gothic aesthetic.
 
 ## 🎮 About
 
-ABSLVE is a landing page for a dark fantasy game set in a world abandoned by the gods. The site features:
+ABSOLVE is a landing page for a dark fantasy game set in a world abandoned by the gods. The site features:
 
 - Immersive hero section with floating ember particles
 - Dynamic features showcase with scroll animations
@@ -123,7 +123,7 @@ Update navigation and social links in `frontend/config/links.ts`:
 ```typescript
 export const LINKS = {
   cta: {
-    preOrder: "https://store.steampowered.com/app/4232480/ABSLVE/",
+    preOrder: "https://store.steampowered.com/app/4232480/ABSOLVE/",
     // ... more links
   },
   // ... more configurations
